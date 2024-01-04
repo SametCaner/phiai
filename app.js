@@ -12,6 +12,9 @@ app.get("/about", (req, res) => {
 app.get("/contact", (req, res) => {
     res.render("contact");
 } );
+app.get("/chat", (req, res) => {
+    res.render("chat");
+} );
 
 const port = 3000;
 app.listen(port, () => console.log(`App listening on port ${port}!`));
