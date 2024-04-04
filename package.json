@@ -9,6 +9,9 @@
   "author": "Samet CANER",
   "license": "ISC",
   "dependencies": {
+    "@google/generative-ai": "^0.2.1",
+    "body-parser": "^1.20.2",
+    "dotenv": "^16.4.5",
     "ejs": "^3.1.9",
     "express": "^4.18.2"
   },
